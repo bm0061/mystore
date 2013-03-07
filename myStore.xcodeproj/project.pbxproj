@@ -18,6 +18,9 @@
 		DED42AA416E61BBD0079E43C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DED42AA316E61BBD0079E43C /* Default@2x.png */; };
 		DED42AA616E61BBD0079E43C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DED42AA516E61BBD0079E43C /* Default-568h@2x.png */; };
 		DED42AA916E61BBD0079E43C /* myStore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DED42AA716E61BBD0079E43C /* myStore.xcdatamodeld */; };
+		DED42AB016E61CC10079E43C /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DED42AAF16E61CC10079E43C /* Storyboard.storyboard */; };
+		DED42AB316E6217B0079E43C /* DeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DED42AB216E6217B0079E43C /* DeviceViewController.m */; };
+		DED42AB616E621E60079E43C /* DeviceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DED42AB516E621E60079E43C /* DeviceDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,11 @@
 		DED42AA316E61BBD0079E43C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		DED42AA516E61BBD0079E43C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		DED42AA816E61BBD0079E43C /* myStore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = myStore.xcdatamodel; sourceTree = "<group>"; };
+		DED42AAF16E61CC10079E43C /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		DED42AB116E6217B0079E43C /* DeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceViewController.h; sourceTree = "<group>"; };
+		DED42AB216E6217B0079E43C /* DeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceViewController.m; sourceTree = "<group>"; };
+		DED42AB416E621E60079E43C /* DeviceDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceDetailViewController.h; sourceTree = "<group>"; };
+		DED42AB516E621E60079E43C /* DeviceDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +95,12 @@
 				DED42A9E16E61BBD0079E43C /* qdAppDelegate.h */,
 				DED42A9F16E61BBD0079E43C /* qdAppDelegate.m */,
 				DED42AA716E61BBD0079E43C /* myStore.xcdatamodeld */,
+				DED42AAF16E61CC10079E43C /* Storyboard.storyboard */,
 				DED42A9616E61BBD0079E43C /* Supporting Files */,
+				DED42AB116E6217B0079E43C /* DeviceViewController.h */,
+				DED42AB216E6217B0079E43C /* DeviceViewController.m */,
+				DED42AB416E621E60079E43C /* DeviceDetailViewController.h */,
+				DED42AB516E621E60079E43C /* DeviceDetailViewController.m */,
 			);
 			path = myStore;
 			sourceTree = "<group>";
@@ -162,6 +175,7 @@
 				DED42AA216E61BBD0079E43C /* Default.png in Resources */,
 				DED42AA416E61BBD0079E43C /* Default@2x.png in Resources */,
 				DED42AA616E61BBD0079E43C /* Default-568h@2x.png in Resources */,
+				DED42AB016E61CC10079E43C /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +189,8 @@
 				DED42A9C16E61BBD0079E43C /* main.m in Sources */,
 				DED42AA016E61BBD0079E43C /* qdAppDelegate.m in Sources */,
 				DED42AA916E61BBD0079E43C /* myStore.xcdatamodeld in Sources */,
+				DED42AB316E6217B0079E43C /* DeviceViewController.m in Sources */,
+				DED42AB616E621E60079E43C /* DeviceDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
